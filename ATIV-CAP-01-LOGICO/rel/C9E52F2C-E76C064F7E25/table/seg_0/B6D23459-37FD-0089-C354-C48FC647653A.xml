@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6D23459-37FD-0089-C354-C48FC647653A" name="LEITURA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>90E92ACC-34A7-CE1F-C94F-EF6736BC5E90</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LEITURA" id="9EE0CBD4-5F1F-1A66-721A-221E4260DDAB">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>AE849116-65A6-315B-9B10-9870E43A55DC</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SENSOR" id="188BCF02-1388-BB45-A4D0-D85675147786">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>ECC07CAF-4E58-DA9D-3A11-79C2B68DF833</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CEBE85B-ADF9-32DE-12F0-103E3DA694A5" referredColumn="A79FC9F7-4561-74B1-A2E2-5DD58EDC26AB"/>
+</associations>
+</Column>
+<Column name="DATA_HORA" id="89DDE0AC-5E52-EA9D-30E8-FE3AA0686B7E">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0C3EB025-8F5C-A7A0-1427-C2113BD8FC6A</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="DF1BDC98-EB1C-F36C-20D3-2A11C3B550DD">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0ADD9147-6B38-C5C8-C589-13D76054DE4D</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30FE5E3D-2B6F-2ACE-1F72-85F60B604C5E" name="PK_LEITURA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>43410A2F-1B7A-C3F8-1D17-0A4C6AA5582E</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE0CBD4-5F1F-1A66-721A-221E4260DDAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93D6664-321B-373C-A357-63CBAA1D1030" name="FK_LEITURA_SENSOR">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>60118332-9E9E-BA04-1A6D-745A55A9057A</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188BCF02-1388-BB45-A4D0-D85675147786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

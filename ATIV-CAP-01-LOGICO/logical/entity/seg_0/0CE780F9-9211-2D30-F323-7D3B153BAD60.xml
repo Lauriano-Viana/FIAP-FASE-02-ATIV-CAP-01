@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CE780F9-9211-2D30-F323-7D3B153BAD60" name="APLICACAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:31:48 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_APLICACAO" id="9EFE2870-D6E9-BB0C-2359-9E71EC791751">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:32:11 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AREA" id="45A8A5CB-C2C8-99B0-7502-68860D06BD08">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:50:46 UTC</createdTime>
+<generatorID>B91F0AAC-FBEF-78D8-9E93-68AD02FE1FA4</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<referedAttribute>CD7FC64A-1DFA-9C42-45F8-CBF80BDD07F3</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HORA" id="0E9A9338-81EA-6697-ADA7-D3FD23DB52AC">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:32:29 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUANTIDADE_APLICADA" id="1A2F5EF3-5C46-8CD7-91B6-420AFD3878A0">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:32:40 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_APLICACAO" id="A558D668-6EBC-1890-F66B-D31C5525C64F">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:33:16 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8567273B-B6B7-6BE8-26CB-B7A922A8CA32" name="APLICACAO PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:32:22 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EFE2870-D6E9-BB0C-2359-9E71EC791751</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

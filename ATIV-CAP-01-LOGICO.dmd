@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ATIV-CAP-01-LOGICO" id="CD33A741-5BDA-1FFE-9564-645CAEB72DFE" version="3.5">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:24:01 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CD33A741-5BDA-1FFE-9564-645CAEB72DFE</designId>
+</OSDM_Design>

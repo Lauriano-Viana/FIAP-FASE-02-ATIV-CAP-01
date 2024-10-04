@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8190CE5-A10A-E799-C791-4B0DE49D250A" name="SENSOR">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:28:48 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SENSOR" id="B0FB7C16-76B9-F7A5-BC2C-B4CA540C60AA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:29:05 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SENSOR" id="E92F418C-5342-4BE2-CEDA-3A44879937E2">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:29:23 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="B12AC3AD-1009-A1FF-1E46-06C99A36216E">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:29:45 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5579344B-15D5-7DB1-0B54-270CE61A8B5C" name="SENSOR PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:29:15 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0FB7C16-76B9-F7A5-BC2C-B4CA540C60AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

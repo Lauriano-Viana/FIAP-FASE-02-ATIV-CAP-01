@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="area-aplicacao" directorySegmentName="seg_0" id="B91F0AAC-FBEF-78D8-9E93-68AD02FE1FA4">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:50:46 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<sourcePk>18879B0D-649B-E709-6C25-F71A0AD3F79B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5812E969-3F1A-D7D3-8A36-7B39D58B2B77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CE780F9-9211-2D30-F323-7D3B153BAD60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

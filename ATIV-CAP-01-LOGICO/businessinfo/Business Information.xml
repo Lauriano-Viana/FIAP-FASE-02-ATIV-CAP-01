@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="06C0E8B0-C0D2-2F65-C85D-E42E11D6952A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:24:02 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

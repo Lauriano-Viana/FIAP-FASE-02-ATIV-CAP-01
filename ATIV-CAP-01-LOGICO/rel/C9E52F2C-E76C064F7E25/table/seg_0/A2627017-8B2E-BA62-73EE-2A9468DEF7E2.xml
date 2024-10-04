@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2627017-8B2E-BA62-73EE-2A9468DEF7E2" name="AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>5812E969-3F1A-D7D3-8A36-7B39D58B2B77</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AREA" id="5E03B0FA-75B7-D339-1569-4013283E4A65">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>CD7FC64A-1DFA-9C42-45F8-CBF80BDD07F3</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANHO" id="3142FE91-0C35-D86B-4768-187F096984C2">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0374481B-364D-EF66-A877-AB8DFA28C7EA</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CULTURA" id="998CEE64-083B-C524-3327-A9551A618F9A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0B898F91-B800-2686-AAF0-9A2C8026B2A4</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3C7A50F-239C-5A6F-DE6A-E6583E5A9687" referredColumn="B49310FD-4D12-4938-769D-11611735290E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AFAC3ED-8ED3-999E-522A-EE4D319FBE3A" name="PK_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>18879B0D-649B-E709-6C25-F71A0AD3F79B</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E03B0FA-75B7-D339-1569-4013283E4A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7908B9F6-CD02-4FA3-BF37-4D62D8C8E204" name="FK_AREA_CULTURA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>6B53965F-57F7-4F65-C0DA-A50733DB1C48</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998CEE64-083B-C524-3327-A9551A618F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

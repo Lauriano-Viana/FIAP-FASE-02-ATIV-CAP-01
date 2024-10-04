@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sensor-leitura" directorySegmentName="seg_0" id="60118332-9E9E-BA04-1A6D-745A55A9057A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:48:32 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<sourcePk>5579344B-15D5-7DB1-0B54-270CE61A8B5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8190CE5-A10A-E799-C791-4B0DE49D250A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90E92ACC-34A7-CE1F-C94F-EF6736BC5E90</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

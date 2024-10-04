@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leitura-leitura_area" directorySegmentName="seg_0" id="A57A3F0C-9C67-AEB4-DBEE-44D99D7E5726">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:53:50 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<sourcePk>43410A2F-1B7A-C3F8-1D17-0A4C6AA5582E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90E92ACC-34A7-CE1F-C94F-EF6736BC5E90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4248301-516C-7F1A-D393-151925DAE517</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

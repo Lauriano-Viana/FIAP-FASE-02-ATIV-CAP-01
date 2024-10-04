@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A50B1BB-93E9-6441-5A69-C03ADE4124B5" name="APLICACAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0CE780F9-9211-2D30-F323-7D3B153BAD60</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_APLICACAO" id="7E404F3D-DCF5-A601-95D3-1542F5E8980C">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>9EFE2870-D6E9-BB0C-2359-9E71EC791751</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_AREA" id="AE59F6B7-8E4F-2908-7C37-503368F1F976">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>45A8A5CB-C2C8-99B0-7502-68860D06BD08</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28F97A7C-9324-24DD-2DD0-118935D65835" referredColumn="5E03B0FA-75B7-D339-1569-4013283E4A65"/>
+</associations>
+</Column>
+<Column name="DATA_HORA" id="E7F6CDF1-AB44-D901-BAF9-A455E2691E6E">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>0E9A9338-81EA-6697-ADA7-D3FD23DB52AC</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE_APLICADA" id="26EBCF6B-765B-7A11-1834-6A281CF32CDF">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>1A2F5EF3-5C46-8CD7-91B6-420AFD3878A0</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_APLICACAO" id="D144BD06-1C0E-1BA9-8BAB-AB3B0747C629">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>A558D668-6EBC-1890-F66B-D31C5525C64F</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07FEC0B9-6656-B59A-BB5B-F3C430D1A307" name="PK_APLICACAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>8567273B-B6B7-6BE8-26CB-B7A922A8CA32</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E404F3D-DCF5-A601-95D3-1542F5E8980C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12AAFA93-3E5F-61C9-8D6E-54884CD00D26" name="FK_APLICACAO_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>B91F0AAC-FBEF-78D8-9E93-68AD02FE1FA4</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE59F6B7-8E4F-2908-7C37-503368F1F976"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

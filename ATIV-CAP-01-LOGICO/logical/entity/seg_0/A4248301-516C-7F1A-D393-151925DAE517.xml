@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4248301-516C-7F1A-D393-151925DAE517" name="LEITURA_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:39:25 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LEITURA_AREA" id="4B8DC0AD-46F6-6F35-0109-8AB6FC9AA537">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:39:40 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AREA" id="2744E90E-D09F-1FC7-83E4-CD625F46E014">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:47:11 UTC</createdTime>
+<generatorID>C75B841C-8973-5D87-2209-D28C361067DF</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<referedAttribute>CD7FC64A-1DFA-9C42-45F8-CBF80BDD07F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LEITURA" id="A81995A2-41B2-982A-799C-650A80470BC5">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 21:53:50 UTC</createdTime>
+<generatorID>A57A3F0C-9C67-AEB4-DBEE-44D99D7E5726</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<referedAttribute>AE849116-65A6-315B-9B10-9870E43A55DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A36BCB5D-4D50-8F63-A0F0-9A2F3B9BFDBB" name="LEITURA_AREA PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-03 20:40:00 UTC</createdTime>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<engineerTo>
+<item key="C9E52F2C-6F3A-3E97-8CEC-E76C064F7E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B8DC0AD-46F6-6F35-0109-8AB6FC9AA537</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

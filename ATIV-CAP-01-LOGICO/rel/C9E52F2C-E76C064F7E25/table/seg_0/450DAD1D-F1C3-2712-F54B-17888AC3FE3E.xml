@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="450DAD1D-F1C3-2712-F54B-17888AC3FE3E" name="SENSOR">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>F8190CE5-A10A-E799-C791-4B0DE49D250A</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="A79FC9F7-4561-74B1-A2E2-5DD58EDC26AB">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>B0FB7C16-76B9-F7A5-BC2C-B4CA540C60AA</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SENSOR" id="5B009F72-9640-FEBE-6F1F-017A39791816">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>E92F418C-5342-4BE2-CEDA-3A44879937E2</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="004CD10D-8B18-E2D8-07DA-3C3AFB69022F">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>B12AC3AD-1009-A1FF-1E46-06C99A36216E</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="832CAF14-8A75-6D7C-A2F8-FA4F0C8728CC" name="PK_SENSOR">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>5579344B-15D5-7DB1-0B54-270CE61A8B5C</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A79FC9F7-4561-74B1-A2E2-5DD58EDC26AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

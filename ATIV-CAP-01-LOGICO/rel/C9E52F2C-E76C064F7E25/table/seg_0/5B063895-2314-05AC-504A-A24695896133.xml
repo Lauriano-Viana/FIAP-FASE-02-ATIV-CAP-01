@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B063895-2314-05AC-504A-A24695896133" name="LEITURA_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>A4248301-516C-7F1A-D393-151925DAE517</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LEITURA_AREA" id="C9E3552F-F8C6-D837-D0C6-FD147543B64A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>4B8DC0AD-46F6-6F35-0109-8AB6FC9AA537</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_AREA" id="ADC71AFD-F786-CF0F-3B46-935122EB4DE8">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>2744E90E-D09F-1FC7-83E4-CD625F46E014</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18391223-C89F-5AF4-4547-01CFDC361153" referredColumn="5E03B0FA-75B7-D339-1569-4013283E4A65"/>
+</associations>
+</Column>
+<Column name="ID_LEITURA" id="C44E0DE6-349D-AD1E-02A5-8D7C0F79820D">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>A81995A2-41B2-982A-799C-650A80470BC5</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69D55921-6B0B-9B1A-4313-0A1B93177F2B" referredColumn="9EE0CBD4-5F1F-1A66-721A-221E4260DDAB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2343D76-1B15-4A08-C587-911660B726D7" name="PK_LEITURA_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>A36BCB5D-4D50-8F63-A0F0-9A2F3B9BFDBB</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E3552F-F8C6-D837-D0C6-FD147543B64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="075DDC74-14FE-02B1-E2D7-1E90A8C13399" name="FK_LEITURA_AREA_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>C75B841C-8973-5D87-2209-D28C361067DF</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC71AFD-F786-CF0F-3B46-935122EB4DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="029C2013-1E37-7296-3256-6658B26A0C15" name="FK_LEITURA_AREA_LEITURA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-04 20:16:01 UTC</createdTime>
+<generatorID>A57A3F0C-9C67-AEB4-DBEE-44D99D7E5726</generatorID>
+<ownerDesignName>ATIV-CAP-01-LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C44E0DE6-349D-AD1E-02A5-8D7C0F79820D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
